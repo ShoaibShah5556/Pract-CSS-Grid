@@ -1,0 +1,47 @@
+div {
+    border: 1px solid black;
+    background-color: pink;
+    margin: 2px;
+
+
+
+}
+
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+.main {
+    width: 100%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 12;
+
+
+}
+
+.slide {
+    grid-row: 1/6;
+}
+
+.ads {
+    grid-row: span 5;
+}
+
+.navigation {
+    grid-row: span 1;
+}
+
+.m2 {
+    grid-row: span 4;
+
+}
+
+.footer {
+    border: 1px solid black;
+    background-color: pink;
+}
